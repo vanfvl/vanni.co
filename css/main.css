@@ -1,0 +1,158 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Comfortaa', cursive;
+    background-color: #222;
+}
+
+.section1 {
+    background: transparent;
+    width: 100%;
+    min-height: 100%;
+}
+
+.section2 {
+    width: 100%;
+    min-height: 100%;
+    background-color: #222222;
+}
+
+.banner_content {
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+/* Navbar change background to transparent for most elements inside*/
+.brand_image {
+    height: 100%;
+    width: auto;
+}
+
+a,
+a:focus,
+a:hover,
+.navbar li,
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover,
+.navbar-inverse .navbar-nav > .active > a {
+    border-bottom-color: #fff;
+}
+
+header {
+    height: 30%;
+}
+
+.navbar > li > a:hover,
+.navbar > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(255, 255, 255, .75);
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    color: white;
+}
+
+/* featuretee */
+
+#featured_projects:hover {
+    text-decoration: none;
+}
+
+.banner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.inner {
+    margin-top: 80px;
+}
+
+footer {
+    height: 10%;
+    background-color: #222;
+}
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.2); /* add translucent background for nav*/
+    }
+
+    .btn {
+        margin-bottom: 1em;
+    }
+}
+
+.sicon {
+    margin-right: .5em;
+}
